@@ -10,7 +10,20 @@
 <script src="libraries/p5.dom.js"></script>
 <script src="libraries/p5.sound.js"></script>
 <script src="sketch.js"></script>
+
+<!-- <script>
+function light(sw) {
+  var pic;
+  if (sw == 0) {
+    pic = "anxious.jpeg"
+  } else {
+    pic = "sademojii.jpeg"
+  }
+  document.getElementById('Images').src = pic;
+}
+</script> -->
 <style>
+
 
   img:hover {
     -webkit-transform: scaleX(-1);
@@ -78,6 +91,8 @@ body {
     <p> Do you feel low?<p>
       <p> Do you feel anxious?<p>
         <p> Do you feel upset?<p>
+
+           <!-- // survey? game interaction -->
 </div>
 
  <center>
@@ -85,6 +100,14 @@ body {
 <center>
 <a href="https://vimeo.com/363754944"><img src="Images/AIVIDEO.png" width="536" height="300"style="padding:1px;border:thin solid white;"/></a>
 </center>
+
+
+<!-- <img id="Images" src="sademojii.jpeg" width="100" height="180">
+
+<p>
+<button type="button" onclick="light(1)">Light On</button>
+<button type="button" onclick="light(0)">Light Off</button>
+</p> -->
 
 </body>
 </html>
